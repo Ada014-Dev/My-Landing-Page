@@ -87,7 +87,7 @@ export default function LandingPage() {
             </h2>
 
             <p className="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-                Lens is a 24/7 AI-powered RAG (Retrieval-Augmented Generation) assistant designed specifically for SMEs. 
+                LensAI is a 24/7 AI-powered RAG (Retrieval-Augmented Generation) assistant designed specifically for SMEs. 
                 It helps business owners streamline daily operations, automate information tasks, and reclaim valuable time 
                 — so they can focus on growing their business and staying productive.
             </p>
