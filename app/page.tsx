@@ -149,14 +149,12 @@ export default function LandingPage() {
                 </CardHeader>
                 <CardContent className="text-gray-300 space-y-4">
                   <p>
-                    My name is Uche Blessing, I am from the South Eastern part of Nigeria. I love the unusual things,
-                    like i believe if it is not hard i am not serious. Having cerifications from Moshood Abiola
-                    Polytechnic, I went further to acquire a degree at the prestigious Imo State University. I look
-                    forward to transition into tech because of the interesting technologies. I remember growing up, i
-                    love to open up our radio, tourch, phones, anything, just to be sure or see what was inside it that
-                    makes it work. I love food I love to see people smile, and even making even making them smile makes
-                    me more happy, even when i hardly smile when i am all by myself. I love food. Food is art if you ask
-                    me!
+                    My name is Uche Blessing, a native of the South Eastern region of Nigeria. I hold a Higher National Diploma from Moshood Abiola Polytechnic and a Bachelor’s degree from Imo State University. 
+                    From a young age, I’ve always been curious about how things work — I would take apart radios, torches, and phones just to explore the inner mechanics that bring devices to life.
+                    This deep-rooted curiosity eventually led me to the world of technology. Over time, I became particularly fascinated by how software is built and made accessible to millions over the internet. 
+                    This fascination inspired my transition from Customer Service and Experience into cloud engineering — a field that combines my love for problem-solving with the ability to build scalable, reliable infrastructure behind the scenes of modern applications.
+                    Currently, I am a learner in the Cloud Engineering track at AltSchool, where I am building my foundation on the infrastructure that powers the web.
+                    Beyond tech, I’m passionate about food and making people smile. I find joy in the little things and believe that both food and technology are forms of art — each crafted to improve lives and create meaningful experiences
                   </p>
                 </CardContent>
               </Card>
