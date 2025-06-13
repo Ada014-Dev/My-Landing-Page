@@ -159,7 +159,7 @@ export default function LandingPage() {
                 </CardHeader>
                 <CardContent className="text-gray-300 space-y-4">
                   <p>
-                    Experienced Customer Service Expert currently transitioning to the world of Technology. 
+                    Experienced Customer Service Expert currently transitioning into the world of Technology. 
                     My curiosity for understanding what happens behind the scenes of technologies that power our day to day lives
                     inspired my Journey into cloud engineering. Currently, I am a learner in the Cloud Engineering track at
                     AltSchool, where I am building my foundation on the tools and infrastructure that powers the web and make it accessible to the globe. 
@@ -337,7 +337,7 @@ export default function LandingPage() {
           >
             <h2 className="text-4xl font-bold text-white mb-6">Let's Connect</h2>
             <p className="text-xl text-gray-300 mb-12">
-              Ready to run your business with hassle? Let's discuss how LensAI can transform your business operations.
+              Ready to run your business without hassle? Let's discuss how LensAI can transform your business operations.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
