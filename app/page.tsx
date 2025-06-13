@@ -79,16 +79,16 @@ export default function LandingPage() {
             className="mb-12"
           >
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
-              The Future of{" "}
+              Lens - A{" "}
               <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-                AI-Powered Logistics
+                Personalised AI Business Assistant
               </span>
             </h2>
 
             <p className="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-              Revolutionizing global supply chains through intelligent automation and predictive analytics. Our platform
-              reduces operational costs by 30% while improving delivery accuracy by 95%, transforming how businesses
-              move goods across the world.
+                Lens is a 24/7 AI-powered RAG (Retrieval-Augmented Generation) assistant designed specifically for SMEs. 
+                It helps business owners streamline daily operations, automate information tasks, and reclaim valuable time 
+                — so they can focus on growing their business and staying productive.
             </p>
           </motion.div>
 
@@ -98,7 +98,13 @@ export default function LandingPage() {
             transition={{ duration: 0.6, delay: 0.8 }}
             className="flex flex-col sm:flex-row gap-4 justify-center items-center"
           >
-            <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3">
+            <Button
+              size="lg"
+              className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3"
+              onClick={() => {
+                document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })
+              }}
+            >
               <Mail className="mr-2 h-5 w-5" />
               Get In Touch
             </Button>
@@ -106,6 +112,9 @@ export default function LandingPage() {
               size="lg"
               variant="outline"
               className="border-purple-400 text-purple-400 hover:bg-purple-400 hover:text-white px-8 py-3"
+              onClick={() => {
+                document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" })
+              }}
             >
               <Github className="mr-2 h-5 w-5" />
               View Projects
@@ -149,12 +158,19 @@ export default function LandingPage() {
                 </CardHeader>
                 <CardContent className="text-gray-300 space-y-4">
                   <p>
-                    My name is Uche Blessing, a native of the South Eastern region of Nigeria. I hold a Higher National Diploma from Moshood Abiola Polytechnic and a Bachelor’s degree from Imo State University. 
-                    From a young age, I’ve always been curious about how things work — I would take apart radios, torches, and phones just to explore the inner mechanics that bring devices to life.
-                    This deep-rooted curiosity eventually led me to the world of technology. Over time, I became particularly fascinated by how software is built and made accessible to millions over the internet. 
-                    This fascination inspired my transition from Customer Service and Experience into cloud engineering — a field that combines my love for problem-solving with the ability to build scalable, reliable infrastructure behind the scenes of modern applications.
-                    Currently, I am a learner in the Cloud Engineering track at AltSchool, where I am building my foundation on the infrastructure that powers the web.
-                    Beyond tech, I’m passionate about food and making people smile. I find joy in the little things and believe that both food and technology are forms of art — each crafted to improve lives and create meaningful experiences
+                    My name is Uche Blessing, a native of the South Eastern region of Nigeria. I hold a Higher National
+                    Diploma from Moshood Abiola Polytechnic and a Bachelor’s degree from Imo State University. From a
+                    young age, I’ve always been curious about how things work — I would take apart radios, torches, and
+                    phones just to explore the inner mechanics that bring devices to life. This deep-rooted curiosity
+                    eventually led me to the world of technology. Over time, I became particularly fascinated by how
+                    software is built and made accessible to millions over the internet. This fascination inspired my
+                    transition from Customer Service and Experience into cloud engineering — a field that combines my
+                    love for problem-solving with the ability to build scalable, reliable infrastructure behind the
+                    scenes of modern applications. Currently, I am a learner in the Cloud Engineering track at
+                    AltSchool, where I am building my foundation on the infrastructure that powers the web. Beyond tech,
+                    I’m passionate about food and making people smile. I find joy in the little things and believe that
+                    both food and technology are forms of art — each crafted to improve lives and create meaningful
+                    experiences
                   </p>
                 </CardContent>
               </Card>
@@ -193,7 +209,7 @@ export default function LandingPage() {
       </section>
 
       {/* Projects Section */}
-      <section className="py-20 px-4 bg-slate-800/30">
+      <section id="projects" className="py-20 px-4 bg-slate-800/30">
         <div className="max-w-6xl mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 50 }}
@@ -316,7 +332,7 @@ export default function LandingPage() {
       </section>
 
       {/* Contact Section */}
-      <section className="py-20 px-4 bg-slate-800/30">
+      <section id="contact" className="py-20 px-4 bg-slate-800/30">
         <div className="max-w-4xl mx-auto text-center">
           <motion.div
             initial={{ opacity: 0, y: 50 }}
@@ -359,7 +375,7 @@ export default function LandingPage() {
       <footer className="py-8 px-4 border-t border-slate-700">
         <div className="max-w-6xl mx-auto text-center">
           <p className="text-gray-400">
-            © 2025 Blessing Uche. Building the future of logistics, one algorithm at a time.
+            © 2025 Blessing Uche. Building the future of SMEs in a fast-paced world.
           </p>
         </div>
       </footer>
