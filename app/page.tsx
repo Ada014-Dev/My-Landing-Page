@@ -2,10 +2,11 @@
 
 import { useState, useEffect } from "react"
 import { motion, useScroll, useTransform } from "framer-motion"
-import { ChevronDown, Github, Linkedin, Mail, Users, Zap, Brain, Cloud, Code, Award, GraduationCap } from "lucide-react"
+import { ChevronDown, Mail, Users, Zap, Brain, Cloud, Code, Award, GraduationCap } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
+import { Github, LinkedIn } from "@/components/ui/icons"
 
 export default function LandingPage() {
   const [mounted, setMounted] = useState(false)
@@ -158,17 +159,11 @@ export default function LandingPage() {
                 </CardHeader>
                 <CardContent className="text-gray-300 space-y-4">
                   <p>
-                    My name is Uche Blessing, a native of the South Eastern region of Nigeria. I hold a Higher National
-                    Diploma from Moshood Abiola Polytechnic and a Bachelor’s degree from Imo State University. From a
-                    young age, I’ve always been curious about how things work — I would take apart radios, torches, and
-                    phones just to explore the inner mechanics that bring devices to life. This deep-rooted curiosity
-                    eventually led me to the world of technology. Over time, I became particularly fascinated by how
-                    software is built and made accessible to millions over the internet. This fascination inspired my
-                    transition from Customer Service and Experience into cloud engineering — a field that combines my
-                    love for problem-solving with the ability to build scalable, reliable infrastructure behind the
-                    scenes of modern applications. Currently, I am a learner in the Cloud Engineering track at
-                    AltSchool, where I am building my foundation on the infrastructure that powers the web. Beyond tech,
-                    I’m passionate about food and making people smile. I find joy in the little things and believe that
+                    Experienced Customer Service Expert currently transitioning to the world of Technology. 
+                    My curiosity for understanding what happens behind the scenes of technologies that power our day to day lives
+                    inspired my Journey into cloud engineering. Currently, I am a learner in the Cloud Engineering track at
+                    AltSchool, where I am building my foundation on the tools and infrastructure that powers the web and make it accessible to the globe. 
+                    Beyond tech, I’m passionate about food and making people smile. I find joy in the little things and believe that
                     both food and technology are forms of art — each crafted to improve lives and create meaningful
                     experiences
                   </p>
@@ -342,7 +337,7 @@ export default function LandingPage() {
           >
             <h2 className="text-4xl font-bold text-white mb-6">Let's Connect</h2>
             <p className="text-xl text-gray-300 mb-12">
-              Ready to revolutionize logistics together? Let's discuss how AI can transform your supply chain.
+              Ready to run your business with hassle? Let's discuss how LensAI can transform your business operations.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
@@ -355,7 +350,7 @@ export default function LandingPage() {
                 variant="outline"
                 className="border-purple-400 text-purple-400 hover:bg-purple-400 hover:text-white px-8 py-3"
               >
-                <Linkedin className="mr-2 h-5 w-5" />
+                <LinkedIn className="mr-2 h-5 w-5" />
                 LinkedIn
               </Button>
               <Button
