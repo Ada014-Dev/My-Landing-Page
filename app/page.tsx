@@ -27,6 +27,12 @@ export default function LandingPage() {
     { name: "Linux", level: 85, icon: Zap },
   ]
 
+  const socialLinks = [
+    { icon: Mail, text: "joshua.onwuemene5@gmail.com" },
+    { icon: LinkedIn, text: "https://www.linkedin.com/in/joshuaonwuemene" },
+    { icon: Github, text: "https://github.com/emjay6229" },
+  ];
+
   const projects = [
     {
       title: "Simple Web Server Deployment",
@@ -87,9 +93,9 @@ export default function LandingPage() {
             </h2>
 
             <p className="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-                LensAI is a 24/7 AI-powered RAG (Retrieval-Augmented Generation) assistant designed specifically for SMEs. 
-                It helps business owners streamline daily operations, automate information tasks, and reclaim valuable time 
-                — so they can focus on growing their business and staying productive.
+              LensAI is a 24/7 AI-powered RAG (Retrieval-Augmented Generation) assistant designed specifically for SMEs.
+              It helps business owners streamline daily operations, automate information tasks, and reclaim valuable time
+              — so they can focus on growing their business and staying productive.
             </p>
           </motion.div>
 
@@ -159,10 +165,10 @@ export default function LandingPage() {
                 </CardHeader>
                 <CardContent className="text-gray-300 space-y-4">
                   <p>
-                    Experienced Customer Service Expert currently transitioning into the world of Technology. 
+                    Experienced Customer Service Expert currently transitioning into the world of Technology.
                     My curiosity for understanding what happens behind the scenes of technologies that power our day to day lives
                     inspired my Journey into cloud engineering. Currently, I am a learner in the Cloud Engineering track at
-                    AltSchool, where I am building my foundation on the tools and infrastructure that powers the web and make it accessible to the globe. 
+                    AltSchool, where I am building my foundation on the tools and infrastructure that powers the web and make it accessible to the globe.
                     Beyond tech, I’m passionate about food and making people smile. I find joy in the little things and believe that
                     both food and technology are forms of art — each crafted to improve lives and create meaningful
                     experiences
@@ -341,26 +347,34 @@ export default function LandingPage() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-              <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3">
-                <Mail className="mr-2 h-5 w-5" />
-                adablessing323@gmail.com
-              </Button>
-              <Button
-                size="lg"
-                variant="outline"
-                className="border-purple-400 text-purple-400 hover:bg-purple-400 hover:text-white px-8 py-3"
-              >
-                <LinkedIn className="mr-2 h-5 w-5" />
-                LinkedIn
-              </Button>
-              <Button
-                size="lg"
-                variant="outline"
-                className="border-gray-400 text-gray-400 hover:bg-gray-400 hover:text-white px-8 py-3"
-              >
-                <Github className="mr-2 h-5 w-5" />
-                GitHub
-              </Button>
+              <a href="mailto:adablessing323@gmail.com">
+                <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3">
+                  <Mail className="mr-2 h-5 w-5" />
+                  adablessing323@gmail.com
+                </Button>
+              </a>
+
+              <a href="https://www.linkedin.com/in/uche-blessing" target="_blank" rel="noopener noreferrer">
+                <Button
+                  size="lg"
+                  variant="outline"
+                  className="border-purple-400 text-purple-400 hover:bg-purple-400 hover:text-white px-8 py-3"
+                >
+                  <LinkedIn className="mr-2 h-5 w-5" />
+                  LinkedIn
+                </Button>
+              </a>
+
+              <a href="https://github.com/Ada014-Dev" target="_blank" rel="noopener noreferrer">
+                <Button
+                  size="lg"
+                  variant="outline"
+                  className="border-gray-400 text-gray-400 hover:bg-gray-400 hover:text-white px-8 py-3"
+                >
+                  <Github className="mr-2 h-5 w-5" />
+                  GitHub
+                </Button>
+              </a>
             </div>
           </motion.div>
         </div>
